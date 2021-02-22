@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+[role="button"] {
+  cursor: pointer;
+}
+
+#image_profile {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+#btn_send_message {
+  margin-top: 1rem;
+}
